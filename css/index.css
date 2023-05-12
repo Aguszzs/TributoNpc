@@ -46,6 +46,10 @@ h1{
     color: white;
     text-align: left;
 }/*estilo cuerpo*/
+.rika{
+    width: 500px;
+    height: 500px;
+}
 h3{
     margin-left: 200px;
     margin-top: 200px;
