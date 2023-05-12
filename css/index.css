@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Terraria;
+    src: url("../ANDYB.TTF");
+}
+body{
+    background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 46rem;
+}/*estilos del header*/
+header{
+    background-image: url("https://thumbs.dreamstime.com/b/dark-hexagon-wallpaper-background-d-render-dark-hexagon-wallpaper-background-d-render-160588440.jpg");
+    background-position: cover;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+/*estilo del menu*/
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Terraria';
+    font-weight: 700;
+    
+}/*estilo del banner*/
+.banner{
+    margin-top: -1px;
+    background-image: url("../img/fondoalto.png");
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Terraria';
+    text-decoration: underline white;
+    box-shadow: 0 0 10px black;
+}
+h1{
+    color: white;
+    text-align: left;
+}/*estilo cuerpo*/
+h3{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.pp{
+    color: white;
+    font-family: 'Terraria';
+}
+.pajaro{
+    border: 1px solid black;
+    /*margin-left: 200px;
+    margin-top: 200px;*/
+    width: 45rem;
+}
+.vid{
+    width: 45rem;
+    height: 451px;
+}
+/*fin estilo cuerpo*/
+footer{
+    background-image: url("https://thumbs.dreamstime.com/b/dark-hexagon-wallpaper-background-d-render-dark-hexagon-wallpaper-background-d-render-160588440.jpg");
+    background-position: left;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*p{
+    background-color: rgb(18, 20, 160);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 13px solid beige;
+    border-radius: 2rem;
+    margin-left: 10%;
+
+}
+.pedrito{
+    margin: 50px 4px 100px 150px;
+    border-radius: 50%;
+    border: 5px solid #D4ADFC;
+    padding: 2%;
+    background-color: #0C134F;
+}
+*/
