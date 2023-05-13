@@ -1,18 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
 @font-face {
     font-family: Terraria;
     src: url("../ANDYB.TTF");
 }
 body{
+    background-color: #74b0ae;
     background-image: url("../img/body.jpg");
     background-repeat: no-repeat;
     background-position-y: 46rem;
 }/*estilos del header*/
 header{
-    background-image: url("https://thumbs.dreamstime.com/b/dark-hexagon-wallpaper-background-d-render-dark-hexagon-wallpaper-background-d-render-160588440.jpg");
-    background-position: cover;
     padding: 10px;
     position: fixed;
     width: 100%;
+    opacity: 75%;
 }
 /*estilo del menu*/
 .menu{
@@ -23,14 +26,19 @@ header{
     list-style: none;
 }
 .menu li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+    text-decoration: underline white;
+    color: #eeeeeec9;
     margin: 20px;
     font-size: 20px;
     font-family: 'Terraria';
     font-weight: 700;
     
 }/*estilo del banner*/
+.menu li a:hover{
+    color: #ffffff;
+    font-size: 25px;
+    transition: all 0.2s ease;
+}
 .banner{
     margin-top: -1px;
     background-image: url("../img/fondoalto.png");
@@ -39,13 +47,20 @@ header{
     background-position: center;
     background-size: cover;
     font-family: 'Terraria';
-    text-decoration: underline white;
     box-shadow: 0 0 10px black;
+    text-decoration: underline white;
+    font-size: 20px;
 }
 h1{
     color: white;
     text-align: left;
 }/*estilo cuerpo*/
+h2{
+    font-family: 'Terraria';
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.914);
+    text-decoration: underline white;
+}
 .rika{
     width: 500px;
     height: 500px;
@@ -70,10 +85,11 @@ h3{
 }
 /*fin estilo cuerpo*/
 footer{
-    background-image: url("https://thumbs.dreamstime.com/b/dark-hexagon-wallpaper-background-d-render-dark-hexagon-wallpaper-background-d-render-160588440.jpg");
+    /*background-image: url("https://thumbs.dreamstime.com/b/dark-hexagon-wallpaper-background-d-render-dark-hexagon-wallpaper-background-d-render-160588440.jpg");*/
     background-position: left;
     text-align: center;
     color: white;
+    font-family: 'Terraria';
     padding: 2rem;
 }
 
