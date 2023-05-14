@@ -55,15 +55,40 @@ h1{
     color: white;
     text-align: left;
 }/*estilo cuerpo*/
-h2{
-    font-family: 'Terraria';
-    font-size: 40px;
-    color: rgba(255, 255, 255, 0.914);
-    text-decoration: underline white;
+.text{
+    display:inline;
+    justify-content:left;
 }
-.rika{
-    width: 500px;
-    height: 500px;
+
+.text h2{
+    font-family: 'Terraria';
+    font-size: 25px;
+    color: #eee;
+    text-align:justify;
+    text-decoration: underline #eee;
+    margin-bottom: 5rem;
+}
+.text p{
+    font-family: 'Terraria';
+    font-size: 30px;
+    color: #eee;
+    text-shadow: 0 0 10px black;
+}
+.tinterox{
+    display: flex;
+}
+.tinterox p{
+    margin-top: 25rem;
+    margin-bottom: -20rem;
+    font-family: 'Terraria';
+    text-shadow: 0 0 10px #ad7966;
+    font-size: 20px;
+}
+.tinterox img{
+    width: 60px;
+    height: 80px;
+    margin-top: 25rem;
+    margin-bottom: -13rem;
 }
 h3{
     margin-left: 200px;
