@@ -99,14 +99,13 @@ h3{
     font-family: 'Terraria';
 }
 .pajaro{
-    border: 1px solid black;
     /*margin-left: 200px;
     margin-top: 200px;*/
     width: 45rem;
 }
 .vid{
     width: 45rem;
-    height: 451px;
+    height: 405px;
 }
 /*fin estilo cuerpo*/
 footer{
@@ -116,6 +115,9 @@ footer{
     color: white;
     font-family: 'Terraria';
     padding: 2rem;
+}
+.huevo{
+    font-size: 0.6px;
 }
 
 
